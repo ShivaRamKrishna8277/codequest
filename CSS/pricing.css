@@ -1,0 +1,91 @@
+@import url(./global.css);
+@import url(./dev_navbar.css);
+
+.pricing{
+    color: var(--primary_color) !important;
+}
+
+/* price slide */
+.equal-height {
+    display: flex;
+}
+.equal-height > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+.equal-height .price_slide {
+    flex-grow: 1;
+}
+.price_slide{
+    background: white;
+    border-radius: 5px;
+    border: 1.5px solid #ededed;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.current_plan{
+    position: absolute;
+    background: var(--primary_color);
+    box-shadow: 0 0 0 999px var(--primary_color);
+    clip-path: inset(0 -100%);
+    inset: 0 0 auto auto;
+    transform-origin: 0 0;
+    transform: translate(29.3%) rotate(45deg);
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.plan_type{
+    font-size: 20px;
+    font-weight: 500;
+}
+.price{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--primary_color);
+}
+.rupee_symbol{
+    font-size: 18px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400 !important;
+    color: var(--secondary_color);
+}
+.plan_benefit{
+    display: flex; 
+    gap: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+}
+.plan_benefit span{
+    font-weight: 500;
+}
+.plan_benefit:last-of-type{
+    border-bottom: none !important;
+}
+.buy_now_btn{
+    background: var(--primary_color);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+/* faq */
+.faq_question{
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.faq_answer{
+    font-size: 15px;
+    font-weight: 450;
+    opacity: 0.6;
+    margin: 0;
+}

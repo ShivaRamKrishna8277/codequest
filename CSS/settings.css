@@ -1,0 +1,59 @@
+@import url(./global.css);
+@import url(./dev_navbar.css);
+:root{
+    --switch_height: 25px;
+    --switch_width: 50px;
+}
+
+.settings{
+    color: var(--primary_color) !important;
+}
+
+
+.setting_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #d5d5d5;
+}
+.setting_wrapper P{
+    margin: 0;
+    font-weight: 500;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.toggle_btn{
+    width: var(--switch_width);
+    height: var(--switch_height);
+    background: #e6e6e6;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.toggle_btn::before {
+    position: absolute;
+    content: '';
+    height: var(--switch_height);
+    width: var(--switch_height);
+    border-radius: 100%;
+    background: white;
+    outline: 1px solid #ededed;
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(0%);
+}
+input:checked + .toggle_btn::before {
+    transform: translateX(100%);
+}
+input:checked + .toggle_btn {
+    transition-delay: 0.2s;
+    background: var(--primary_color);
+}
+.row .setting_wrapper:last-of-type{
+    border-right: none;
+}
+@media(max-width:1200px){
+    .setting_wrapper{
+        border: none;
+    }
+}

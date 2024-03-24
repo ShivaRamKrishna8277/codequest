@@ -1,0 +1,30 @@
+<svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27 16.9692V6.96918" stroke="#39424E" stroke-width="2"/>
+<circle cx="27" cy="4.46918" r="2.75" stroke="#39424E" stroke-width="1.5"/>
+<path d="M33.25 18.5317V12.2817" stroke="#39424E" stroke-width="2"/>
+<circle cx="1.25" cy="1.25" r="2" transform="matrix(-1 0 0 1 34.5 9.46918)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M21.25 18.5317V12.2817" stroke="#39424E" stroke-width="2"/>
+<circle cx="1.25" cy="1.25" r="2" transform="matrix(-1 0 0 1 22.5 9.46918)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M27 39.0317V49.0317" stroke="#39424E" stroke-width="2"/>
+<circle cx="2" cy="2" r="2.75" transform="matrix(1 0 0 -1 25 53.5317)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M33.25 37.4692V43.7192" stroke="#39424E" stroke-width="2"/>
+<circle cx="33.25" cy="45.2817" r="2" transform="rotate(-180 33.25 45.2817)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M21.25 37.4692V43.7192" stroke="#39424E" stroke-width="2"/>
+<circle cx="21.25" cy="45.2817" r="2" transform="rotate(-180 21.25 45.2817)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M16.5 28.4692H6.5" stroke="#39424E" stroke-width="2"/>
+<circle cx="4" cy="28.4692" r="2.75" transform="rotate(-90 4 28.4692)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M18.0625 22.2192H11.8125" stroke="#39424E" stroke-width="2"/>
+<circle cx="1.25" cy="1.25" r="2" transform="matrix(0 1 1 0 9 20.9692)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M18.0625 34.2192H11.8125" stroke="#39424E" stroke-width="2"/>
+<circle cx="1.25" cy="1.25" r="2" transform="matrix(0 1 1 0 9 32.9692)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M38.5625 28.4692H48.5625" stroke="#39424E" stroke-width="2"/>
+<circle cx="2" cy="2" r="2.75" transform="matrix(0 -1 -1 0 53.0625 30.4692)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M37 22.2192H43.25" stroke="#39424E" stroke-width="2"/>
+<circle cx="44.8125" cy="22.2192" r="2" transform="rotate(90 44.8125 22.2192)" stroke="#39424E" stroke-width="1.5"/>
+<path d="M37 34.2192H43.25" stroke="#39424E" stroke-width="2"/>
+<circle cx="44.8125" cy="34.2192" r="2" transform="rotate(90 44.8125 34.2192)" stroke="#39424E" stroke-width="1.5"/>
+<rect x="17" y="17.4692" width="21" height="21" rx="2" stroke="#FF6B00" stroke-width="3"/>
+<line x1="22" y1="24.9692" x2="34" y2="24.9692" stroke="#39424E"/>
+<line x1="25" y1="27.9692" x2="31" y2="27.9692" stroke="#39424E"/>
+<line x1="22" y1="30.9692" x2="34" y2="30.9692" stroke="#39424E"/>
+</svg>
